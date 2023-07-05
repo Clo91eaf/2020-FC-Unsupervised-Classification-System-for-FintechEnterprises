@@ -1,11 +1,4 @@
 # e企查|金融科技服务平台企业数据的无监督分类系统
-![build](https://img.shields.io/badge/build-passing-success)
-![node-current](https://img.shields.io/node/v/vue-cli)
-![build](https://img.shields.io/badge/python-v3.7-ff68b4)
-![build](https://img.shields.io/badge/django-v2.2.3-blueviolet)
-![GitHub](https://img.shields.io/github/license/tony-coder/2020-FC-Unsupervised-Classification-System-for-FintechEnterprises)
-![GitHub stars](https://img.shields.io/github/stars/tony-coder/2020-FC-Unsupervised-Classification-System-for-FintechEnterprises?style=social)
-
 
 ## A10浪潮无监督分类系统介绍
 
@@ -26,19 +19,6 @@
 2.针对提取的有效特征选择合适的无监督分类方法对小微企业数据进行分类，进行模型训练，模型要求实现小微企业群体的有效划分；
 
 3.针对小微企业划分后各簇提取显著标签进行该簇的描述，要求标签合理且有效；
-
-## 演示视频
-[视频链接](https://www.bilibili.com/video/BV1wa4y1n7tM)
-
-## 目录
-
-## 安装
-
-## 使用
-
-## 项目整体结构
-
-## 参考
 
 ## License
 [GPL](https://github.com/tony-coder/2020-FC-Unsupervised-Classification-System-for-FintechEnterprises/blob/master/LICENSE) &copy; [tony-coder](https://github.com/tony-coder)

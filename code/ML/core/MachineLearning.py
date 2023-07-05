@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2020/1/29 17:48
-# @Author  : Roman
-# @FileName: MachineLearning.py
-# @Software: PyCharm
-# @Email   : 693497091@qq.com
-# @Github  : czq693497091
-
 '''
     import ML_core as MLC
     Pack the sklearn to easily split,train_utils,predit and old_evaluate the data.
