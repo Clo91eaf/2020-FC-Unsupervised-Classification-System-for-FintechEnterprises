@@ -1,0 +1,4 @@
+{
+	"editor.renderWhitespace": "none",
+	"python.linting.enabled": false
+}

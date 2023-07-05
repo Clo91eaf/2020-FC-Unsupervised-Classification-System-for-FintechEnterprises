@@ -821,8 +821,8 @@ class Epoch:
 # df_list = []
 # 训练部分
 epoch = Epoch()
-train_path = r"D:\学习\A10\批量训练\Data_FCDS_hashed"
-data_doc = r'F:\2019计算机\大三上\服务外包\A10-浪潮-无监督分类系统训练集-Inspur\服创大赛训练集-Inspur\测试数据集2000\测试数据'
+train_path = r"..\..\..\data\服创大赛训练集-Inspur\Data_FCDS_hashed"
+data_doc = r'..\..\..\data\服创大赛训练集-Inspur\测试数据集2000\测试数据'
 # #
 # #
 # 训练
@@ -835,9 +835,6 @@ epoch.train_all(csv_doc=train_path)
 # 用新模型预测
 # epoch.predict_use_new_model(csv_doc=data_doc)
 
-# df = pd.read_csv(r'F:\2019计算机\大三上\服务外包\服务外包算法集成\预处理第二版\2-投资\原始数据\ent_contribution.csv').fillna(0)
-
-# df = pd.read_csv(r"F:\2019计算机\大三上\服务外包\服务外包算法集成\批量训练\predict_data\ent\module\ent_module.csv")
 # df = df[df.columns[1:]]
 # # print(df)
 # df = df.groupby("ent_inner_type").mean().reset_index()

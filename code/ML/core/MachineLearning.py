@@ -6,7 +6,7 @@
 from collections import Iterable
 from sklearn.model_selection import train_test_split
 from sklearn.cluster import KMeans, DBSCAN, Birch
-from sklearn.externals import joblib
+import joblib
 from sklearn.decomposition import PCA
 import sklearn.metrics as sm
 import pandas as pd

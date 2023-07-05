@@ -21,7 +21,6 @@ def to_percent(temp, position):
 
 def get_attr_bar(infile, module_name, level_num=6):
     '''
-
     :param infile: 输入待统计文件
     :param weight_dict: 数据权重
     :param module_name: 模块名称
@@ -113,7 +112,6 @@ def ent_bar(in_file,pic_doc):
     '''
     bar_matrix, target_cols = get_attr_bar(
         infile=in_file,
-        # pic_doc=r'F:\2019计算机\大三上\服务外包\服务外包算法集成\预处理第二版\all\new_evaluate\pic\bar',
 
         module_name='ent',
         level_num=11
@@ -972,10 +970,8 @@ class Epoch:
 # epoch = Epoch()
 #
 # # 训练数据所在目录
-# train_path = r"F:\2019计算机\大三上\服务外包\A10-浪潮-无监督分类系统训练集-Inspur\服创大赛训练集-Inspur\Data_FCDS_hashed"
 #
 # # 测试数据所在目录
-# data_doc = r"F:\2019计算机\大三上\服务外包\A10-浪潮-无监督分类系统训练集-Inspur\服创大赛训练集-Inspur\测试数据"
 
 
 # epoch.init_train_enviroment()

@@ -114,7 +114,6 @@ def ent_bar(in_file,pic_doc):
     '''
     bar_matrix, target_cols = get_attr_bar(
         infile=in_file,
-        # pic_doc=r'F:\2019计算机\大三上\服务外包\服务外包算法集成\预处理第二版\all\new_evaluate\pic\bar',
 
         module_name='ent',
         level_num=11
